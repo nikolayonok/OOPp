@@ -2,14 +2,6 @@ package lesson1;
 
 public class Human {
 
-    private String fio;
-    private int birthday;
-    private String phone;
-    private String city;
-    private String counry;
-    private String adress;
-
-
     public String getFio() {
         return fio;
     }
@@ -18,11 +10,11 @@ public class Human {
         this.fio = fio;
     }
 
-    public int getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(int birthday) {
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 
@@ -57,6 +49,13 @@ public class Human {
     public void setAdress(String adress) {
         this.adress = adress;
     }
+
+    private String fio;
+    private String birthday;
+    private String phone;
+    private String city;
+    private String counry;
+    private String adress;
 
 
 }

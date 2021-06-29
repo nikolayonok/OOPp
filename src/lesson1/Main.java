@@ -1,6 +1,5 @@
 package lesson1;
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,22 +9,42 @@ public class Main {
         human.getBirthday();
         human.getCity();
         human.getCounry();
-        human.getPhone(new Scanner(sc.next));
+        human.setFio("asd");
+        human.setAdress("sad");
+        human.setBirthday("dsgdf");
+        human.setCity("asfds");
+        human.setCounry("asfds");
+        System.out.println(human.getAdress());
 
         City city = new City();
+
         city.getCityName();
         city.getCountryName();
         city.getIndex();
         city.getPopulation();
-        city.getPhone();
         city.getRegionName();
+        city.getPhoneCode();
+        city.setCityName("asd");
+        city.setCountryName("privet");
+        city.setIndex("sad");
+        city.setPopulation("");
+        city.setPhoneCode("");
+        city.setRegionName("");
+        System.out.println(city.getCountryName());
 
         Country country = new Country();
         country.getCountryName();
         country.getContinentName();
         country.getPopulation();
-        country.setPhoneCode();
+        country.getPhoneCode();
         country.getCapital();
         country.getCities();
+        country.setPhoneCode("");
+        country.setPopulation("");
+        country.setCountryName("");
+        country.setCapital("");
+        country.setCities("kek");
+        country.setContinentName("");
+        System.out.println(country.getCities());
     }
 }

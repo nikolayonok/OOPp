@@ -18,19 +18,19 @@ public class Country {
         this.continentName = continentName;
     }
 
-    public int getPopulation() {
+    public String getPopulation() {
         return population;
     }
 
-    public void setPopulation(int population) {
+    public void setPopulation(String population) {
         this.population = population;
     }
 
-    public int getPhoneCode() {
+    public String getPhoneCode() {
         return phoneCode;
     }
 
-    public void setPhoneCode(int phoneCode) {
+    public void setPhoneCode(String phoneCode) {
         this.phoneCode = phoneCode;
     }
 
@@ -52,9 +52,9 @@ public class Country {
 
     private String countryName;
     private String continentName;
-    private int population;
-    private int phoneCode;
+    private String population;
+    private String phoneCode;
     private String capital;
-    private String [] cities;
+    private String cities;
 
 }
