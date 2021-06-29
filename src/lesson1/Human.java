@@ -2,6 +2,20 @@ package lesson1;
 
 public class Human {
 
+    public Human() {
+    }
+
+    public Human(String fio, String birthday, String phone, String city, String counry, String adress) {
+        this.fio = fio;
+        this.birthday = birthday;
+        this.phone = phone;
+        this.city = city;
+        this.counry = counry;
+        this.adress = adress;
+    }
+
+
+
     public String getFio() {
         return fio;
     }

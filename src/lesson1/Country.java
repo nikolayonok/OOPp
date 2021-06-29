@@ -1,6 +1,23 @@
 package lesson1;
 
 public class Country {
+    public Country() {
+    }
+
+    public Country(String countryName, String continentName, String population, String phoneCode, String capital, String cities) {
+        this.countryName = countryName;
+        this.continentName = continentName;
+        this.population = population;
+        this.phoneCode = phoneCode;
+        this.capital = capital;
+        this.cities = cities;
+    }
+    public void privet(){
+
+    }
+    public void privet(String continentName, String capital){
+
+    }
 
     public String getCountryName() {
         return countryName;

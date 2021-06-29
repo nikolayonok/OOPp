@@ -2,6 +2,23 @@ package lesson1;
 
 public class City {
 
+    public City(String cityName, String regionName, String countryName, String population, String index, String phoneCode) {
+        this.cityName = cityName;
+        this.regionName = regionName;
+        this.countryName = countryName;
+        this.population = population;
+        this.index = index;
+        this.phoneCode = phoneCode;
+    }
+    public void hello(){
+
+    }
+    public void hello(String i){
+
+    }
+    public City() {
+    }
+
     public String getCityName() {
         return cityName;
     }
